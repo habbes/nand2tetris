@@ -4,24 +4,21 @@ D=A
 @SP
 A=M
 M=D
-D=A+1
 @SP
-M=D
+M=M+1
 // push constant 8
 @8
 D=A
 @SP
 A=M
 M=D
-D=A+1
 @SP
-M=D
+M=M+1
 // add
 @SP
 A=M-1
 D=M
 A=A-1
-M=M+D
-D=A+1
+M=D+M
 @SP
-M=D
+M=M-1

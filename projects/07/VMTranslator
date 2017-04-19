@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+java -jar vm-translator.jar $1
